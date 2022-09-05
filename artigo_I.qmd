@@ -1,0 +1,16 @@
+---
+title: "Untitled"
+author: "Alberson da Silva Miranda"
+date: "`r format(Sys.Date(), '%d de %B de %Y')`"
+bibliography: config/bib.bib
+biblio-style: apalike
+cite-method: natbib
+fontsize: "12"
+fontfamily: "Times New Roman"
+geometry: margin=1in
+number-sections: true
+format:
+    pdf:
+        include-in-header: config/preamble.tex
+---
+

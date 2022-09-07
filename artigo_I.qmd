@@ -2,15 +2,57 @@
 title: "Untitled"
 author: "Alberson da Silva Miranda"
 date: "`r format(Sys.Date(), '%d de %B de %Y')`"
+lang: pt-BR
 bibliography: config/bib.bib
 biblio-style: apalike
 cite-method: natbib
 fontsize: "12"
-fontfamily: "Times New Roman"
+mainfont: "Times New Roman"
 geometry: margin=1in
 number-sections: true
 format:
     pdf:
         include-in-header: config/preamble.tex
 ---
+
+# INTRODUÇÃO
+
+Neste trabalho, converso com @feijo acerca do paradigma na ciência econômica.
+
+# A ECONOMIA COMO CIÊNCIA EXATA
+
+Ainda em sua introdução, os autores argumentam sobre a posição da ciência econômica como ciência exata ou humana:
+
+\begin{citacao}
+A primeira pergunta que surge na mente do leigo é se a economia trata-se de ciência exata ou ciência do campo das chamadas humanidades (ciências humanas). Se tivéssemos de escolher entre um enquadramento ou outro, diríamos que a economia pertence ao campo das ciências humanas. No entanto, ela ocupa uma posição especial dentre as ciências humanas: uma parte das contribuições científicas dos economistas acadêmicos utiliza-se do método das ciências exatas. Assim, pode-se afirmar seguramente que há um campo exato no âmbito das investigações feitas pelos economistas. Nem todos os estudos oferecidos pelos economistas, no entanto, afiguram-se um esforço em ciência exata. Mas uma parte importante deles, aliás, a mais expressiva, emprega os métodos matemáticos rigorosos típicos das ciências naturais exatas que têm na física o modelo central.
+\end{citacao}
+
+Esses métodos exatos teriam como objeto as normas sociais, reforçadas nas leis penais, que "englobam todo tipo de comportamento regular e padronizado, igual para todos os indivíduos dentro de um grupo". Entretanto, os próprios autores reconhecem o alcance limitado da ciência econômica no estudo dessas normas sociais:
+
+\begin{citacao}
+Para o economista, basta uns poucos tipos de instituições, vistas como tipos estilizados, como a propriedade privada (que induz os agentes a respeitarem direitos de propriedade e contratos) e o agente otimizador (que maximiza utilidade ou lucro), ou então o comunismo (que os coage a aceitarem a propriedade coletiva) e o agente cooperador. Boa parte do trabalho teórico do economista remete a uns poucos tipos de insti- tuições sociais. Para o paradigma da economia teórica, interessa o agente otimizador.
+\end{citacao}
+
+Devemos nos questionar, primeiramente, se há coerência em tentar especificar um campo exato dentro de uma ciência humana como fizeram os autores. Não digo com isso que não existem, pelo menos no horizonte da experiência humana em que nos encontramos, leis no âmbito das humanidades — elas não só existem, como são estudadas por filósofos e representadas na arte\footnote{Impossível esquecer o monólogo clássico de Macbeth "E todos os nossos ontens não fizeram mais que iluminar para os tolos o caminho que leva ao pó da morte."} ao longo das eras. Da maior delas, Sêneca já tratava em suas cartas a seu sogro Paulinus:
+
+\begin{citacao}
+A maior parte dos mortais, Paulino, lamenta a maldade da Natureza, porque já nascem com a perspectiva de uma curta existência e porque os anos que lhes são dados transcorrem rápida e velozmente. De modo que, com a exceção de uns poucos, para os demais, em pleno esplendor da vida é que justamente esta os abandona. \citep{seneca}
+\end{citacao}
+
+O tempo do indivíduo é restringido aos seus sempre insuficientes anos; seu lugar no universo, confinado em um única rocha em meio à infinitude do cosmos; preso ao chão pela gravidade; cativo à superfície pelo próprio ar; refém da necessidade de consumir. E é exatamente esta última condição que a ciência econômica tem como objeto. Entretanto, esse consumo que menciono não se refere à ideia de economia de troca que alguns téoricos colocam como ordenação natural e espontânea que independe do espaço social, da historicidade e das especificidades de cada sociedade, mas simplesmente o alimento que todo animal precisa para sobreviver. São exatamente generalizações e extrapolações dessa natureza que são o centro da crítica ao paradigma, não a matematização em si.
+
+Quando os autores colocam que o objeto dos métodos exatos na economia são "todo tipo de comportamento regular e padronizado, igual para todos os indivíduos dentro de um grupo", eles falham em enxergar que há pouquíssimos desses comportamentos regulares e padronizados. O comportamento regular é: *o homem previsa de se alimentar*. Já *o homem conhece o preço de equilíbrio do alimento e irá demandá-lo mais se ele estiver abaixo desse preço* O mecanismo de convergência macroeconômico é todo ancorado no microfundamento do comportamento padronizado racional.
+
+Qualquer desenvolvimento e conclusão obtida a partir daí, seja lá o quanto complexo e matematicamente avançado o seja, estará viesada pela adoção de uma hipótese falsa.
+
+A roupagem de ciência exata fornece, sem sombra de dúvidas, um criativo e elegante disfarce à ciência econômica. Entretanto, à medida em que essa visão requer a adoção de hipóteses insustentáveis, não é de espantar que após séculos de desenvolvimento de teoria econômica as crises ainda tomam os economistas de surpresa.
+
+Foi assim em 2008. No ano seguinte ao *crash*, 
+
+# O ECONOMISTA PROGRAMADO
+
+\begin{citacao}
+Sem explicá-lo por enquanto, é suficiente dizer que o paradigma kuhniano da economia é aquilo que os estudantes de graduação são obrigados a aprender nas disciplinas teóricas. Todo estudante de macroeconomia estuda os livros-textos escritos por autores como Blanchard, Boyes, Dornbusch, [...]. Então constata-se, no Brasil e no “mundo livre”, que os estudantes são submetidos à mesma formação, pois, em que pese as diferenças de abordagem, de estilo e de profundidade, todos esses manuais didáticos de teoria econômica assemelham-se entre si em muitos aspectos. Em todos eles, vicejam as instituições da propriedade privada, do contrato, do agente maximizador etc. como pressupostos dos modelos teóricos. Todos abordam os problemas econômicos com álgebra e gráficos, e desenvolvem modelos de equilíbrio.
+Essa formação homogênea dos estudantes é característica da prática científica que Kuhn denomina de ciência normal. Típica em ciências com paradigmas consolidados. O paradigma da economia submete os estudantes à mesma formação teórica básica. É claro que o treinamento assemelhado leva os profissionais formados nesse ambiente a atuarem de uma maneira padronizada no trabalho com suas teorias e no teste empírico delas.
+\end{citacao}
 

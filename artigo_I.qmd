@@ -2,12 +2,9 @@
 title: "Untitled"
 author: "Alberson da Silva Miranda"
 date: "`r format(Sys.Date(), '%d de %B de %Y')`"
-lang: pt-BR
-bibliography: config/bib.bib
 biblio-style: apalike
 cite-method: natbib
 fontsize: "12"
-mainfont: "Times New Roman"
 geometry: margin=1in
 number-sections: true
 format:
@@ -15,7 +12,7 @@ format:
         include-in-header: config/preamble.tex
 ---
 
-# INTRODUÇÃO
+# INTRODUÇÃO {-}
 
 Neste trabalho, converso com @feijo acerca do paradigma na ciência econômica.
 
@@ -33,7 +30,7 @@ Esses métodos exatos teriam como objeto as normas sociais, reforçadas nas leis
 Para o economista, basta uns poucos tipos de instituições, vistas como tipos estilizados, como a propriedade privada (que induz os agentes a respeitarem direitos de propriedade e contratos) e o agente otimizador (que maximiza utilidade ou lucro), ou então o comunismo (que os coage a aceitarem a propriedade coletiva) e o agente cooperador. Boa parte do trabalho teórico do economista remete a uns poucos tipos de instituições sociais. Para o paradigma da economia teórica, interessa o agente otimizador.
 \end{citacao}
 
-Questiono, primeiramente, se há coerência em tentar especificar um campo exato dentro de uma ciência humana como fizeram os autores. Não digo com isso que não existem, pelo menos no horizonte da experiência humana em que nos encontramos, leis no âmbito das humanidades — elas não só existem, como são estudadas por filósofos e representadas na arte\footnote{Impossível esquecer o monólogo clássico de Macbeth "E todos os nossos ontens não fizeram mais que iluminar para os tolos o caminho que leva ao pó da morte."} ao longo das eras. Da maior delas, Sêneca já tratava em suas cartas a seu sogro Paulinus:
+Questiono, primeiramente, se há coerência em tentar especificar um campo exato dentro de uma ciência humana como fizeram os autores. Não digo com isso que não existem, pelo menos no horizonte da experiência humana em que nos encontramos, leis no âmbito das humanidades — elas não só existem, como são estudadas por filósofos e representadas na arte\footnote{Impossível esquecer o monólogo clássico de Macbeth: ``E todos os nossos ontens não fizeram mais que iluminar para os tolos o caminho que leva ao pó da morte."} ao longo das eras. Da maior delas, Sêneca já tratava em suas cartas a seu sogro Paulinus:
 
 \begin{citacao}
 A maior parte dos mortais, Paulino, lamenta a maldade da Natureza, porque já nascem com a perspectiva de uma curta existência e porque os anos que lhes são dados transcorrem rápida e velozmente. De modo que, com a exceção de uns poucos, para os demais, em pleno esplendor da vida é que justamente esta os abandona. \citep{seneca}
@@ -49,16 +46,62 @@ Há de se enfatizar que o paradigma não está sozinho nessas extrapolações. P
 Há algo além de um exercício puramente mental envolvido no trabalho do cientista social, pois viceja uma realidade objetiva que deve ser racionalmente estudada. Assim como nas ciências naturais, no campo da investigação social também se deve separar o conhecimento que se formula dos fatos, por um lado, da realidade externa e objetiva em si mesma, por outro. Com isso, a tradicional separação entre as ideias que se elaboram sobre a realidade e essa realidade em si mesma estende-se também para o domínio da ciência social. A separação, usual nas ciências físicas, entre sujeito e objeto, parcialmente violada apenas na mecânica quântica, também se aplica ao campo dos estudos sociais.
 \end{citacao}
 
-A existência de uma única realidade objetiva é um pressuposto da abordagem positivista e instrumento do método das ciências exatas. Nelas, o pesquisador adota uma posição de neutralidade — é um mero obserador passivo. Tal realidade não existe na ciência social. Esta admite que a realidade pode ser vista a partir de várias perspectivas e o pesquisador social sabe que sua observação e suas conclusões são carregadas de valores. Por exemplo, supor a neutralidade do pensamento de Hayek, que escreve *O Caminho da Servidão* em 1944 sob a influência do totalitarismo nazi-fascistas, de um lado, e dos soviéticos do outro; ou a de Marx, que escreve *O Capital* na era das fábricas-prisões no auge do panoptismo é .
+A existência de uma única realidade objetiva é um pressuposto da abordagem positivista e instrumento do método das ciências exatas. Nelas, o pesquisador adota uma posição de neutralidade — é um mero obserador passivo. Tal realidade não existe na ciência social. Esta admite que a realidade pode ser vista a partir de várias perspectivas e o pesquisador social sabe que sua observação e suas conclusões são carregadas de valores. Por exemplo, supor a neutralidade do pensamento de Hayek, que escreve *O Caminho da Servidão* em 1944 sob a influência do totalitarismo nazi-fascistas, de um lado, e dos soviéticos do outro; ou a de Marx, que escreve *O Capital* na era das fábricas-prisões panópticas é preocupante.
 
-A roupagem de ciência exata fornece, sem sombra de dúvidas, um criativo e elegante disfarce à ciência econômica. Entretanto, à medida em que essa visão requer a adoção de hipóteses insustentáveis, não é de espantar que após séculos de desenvolvimento de teoria econômica as crises ainda tomam os economistas de surpresa.
+A roupagem de ciência exata fornece, sem sombra de dúvidas, um criativo e elegante disfarce à ciência econômica. Entretanto, à medida em que essa visão requer a adoção de hipóteses insustentáveis, não é de espantar que, após séculos de desenvolvimento de teoria econômica, as crises ainda tomem os economistas de surpresa.
 
-Foi assim em 2008. No ano seguinte ao *crash*, 
+Foi assim em 2008. No ano seguinte ao *crash*, Paul Krugman escreveu em seu artigo ao New York Times:
+
+\begin{citacao}
+As I see it, the economics profession went astray because economists, as a group, mistook beauty, clad in impressive-looking mathematics, for truth.
+
+[...] the central cause of the profession’s failure was the desire for an all-encompassing, intellectually elegant approach that also gave economists a chance to show off their mathematical prowess. Unfortunately, this romanticized and sanitized vision of the economy led most economists to ignore all the things that can go wrong. They turned a blind eye to the limitations of human rationality that often lead to bubbles and busts; to the problems of institutions that run amok; to the imperfections of markets — especially financial markets — that can cause the economy’s operating system to undergo sudden, unpredictable crashes; and to the dangers created when regulators don’t believe in regulation. \citep{krugman}
+\end{citacao}
+
+Essa ilusão é tão enraizada no paradigma que os economistas, tanto na academia quanto no mercado, achavam que tinham todos as soluções\footnote{``in a 2008 paper titled ´The State of Macro' (that is, macroeconomics, the study of big-picture issues like recessions), Olivier Blanchard of M.I.T., now the chief economist at the International Monetary Fund, declared that ´the state of macro is good'. The battles of yesteryear, he said, were over, and there had been a ´broad convergence of vision'. And in the real world, economists believed they had things under control: the ´central problem of depression-prevention has been solved', declared Robert Lucas of the University of Chicago in his 2003 presidential address to the American Economic Association" \citep{krugman}}. Obviamente, não as tinham. Agora, suponha que minha argumentação até este ponto esteja completamente equivocada e exista, de fato, um núcleo exato na ciência econômica. Daí temos que a teoria do paradigma não o representa, uma vez que, como destaca Krugman, tem sido útil para realizar previsões. Naturalmente, não limito minha crítica a uma posição instrumentalista: a teoria do paradigma falha também em explicar os fenômenos sociais. Tome a teoria do crescimento, por exemplo. Por décadas foram desenvolvidos modelos — temos a formulação seminal de Solow em 1956, ainda univariada; a otimização dinâmica com Ramsey-Cass-Koopmans na década de 60; a tantativa de explicação por capital humano com Lucas na década de 80; externalidades e depois inovação tecnológica com Romer. Apesar de toda elegância e notação digna de teses acadêmicas das exatas, nenhum desses trabalhos foram capazes de explicar as perguntas mais básicas acerca do crescimento econômico, notadamente os problemas conhecidos como *catching up*, *falling behind* e *forging ahead*. Portanto, o paradigma falha tanto a partir de um olhar instrumentalista quanto convencionalista.
+
+Acredito que a crítica de Krugman seja muito pertinente e responda bem à questão inicial levantada: se a economia é uma ciência social, ela não pode ser investigada a partir de uma suposta realidade objetiva, nem deduzida a partir de condições iniciais e leis universais. Nesse sentido, @herscovici destaca os limites da espitemologia popperiana na análise econômica:
+
+\begin{citacao}
+Na maior parte dos casos, \textit{para tornar uma lei universal, é preciso esvaziá-la de seu conteúdo histórico}. O \textit{formalismo} que resulta dessa operação caracteriza-se pelo fato de que, se uma lei científica quer explicar todos os sitemas possíveis, ela não tem condições de explicar nenhum sistema real, nas suas especificidades históricas e sociais.
+\end{citacao}
+
+Essas críticas não são estranhas aos autores. Ainda na introdução da obra eles tratam de se blindar:
+
+\begin{citacao}
+Parece ingenuidade imaginar que o agente econômico seja sempre um sujeito dotado de plena racionalidade, informação perfeita, que atue em mercados completos (com mercadorias contingentes oferecidas para todos os estados possíveis da natureza), que tenha clareza de seus objetivos e que procure sempre o melhor resultado para si no curto prazo, sem se preocupar com as consequências remotas de suas escolhas e sem se importar com os demais. Inclusive, o paradigma da economia tem sido criticado pela ingenuidade de seus supostos comportamentais em sua análise. Mas, em muitos casos, a pecha de ingenuidade caracteriza melhor a situação de quem faz esse tipo de crítica do que os modelos dos economistas teóricos em si mesmos, pois as hipóteses arroladas anteriormente, a bem da verdade, são apenas simplificações de livros-textos introdutórios. A fronteira do conhecimento teórico em economia há muito aprendeu a lidar com hipóteses comportamentais bem mais arrojadas e realistas do que essas. Assim é que os economistas teóricos atuais sabem perfeitamente modelar agentes com racionalidade limitada, informação imperfeita, mercados incompletos, agentes indecisos e com objetivos múltiplos, e que levam em conta o bem-estar de outras pessoas.
+\end{citacao}
+
+Ora, conforme citado no início deste trabalho, uma hora dizem que basta para os economistas algumas instituições, dentre elas o agente otimizador; noutra dizem que tal agente já fora superado. Pior ainda, travar que os "economistas teóricos atuais sabem \textbf{perfeitamente modelar}" a indecisão me parece duplamente incoerente. Primeiro porque não existe tal coisa como "modelo perfeito". Em segundo, a indecisão, a incerteza, é estocástica por hipótese. Se *assume* a incerteza, não se *perfeitamente a modela*. Mas vão além:
+
+\begin{citacao}
+Pode-se também criticar os supostos do paradigma econômico por considerar apenas o modelo de concorrência perfeita. Outra crítica irrelevante, pois, variegadas (sic) estruturas de mercados, da concorrência perfeita ao monopólio, começaram a ser estudadas já no século XIX, e a partir do fim dos anos 1920 o conhecimento teórico aprofundou-se com a consideração de estruturas intermediárias como concorrência monopolística e oligopólio. Os supostos da concorrência perfeita foram questionados e repensados pela influência da crítica dos economistas da chamada escola austríaca de economia, mas não somente por ela, e substituídos pela visão do agente econômico com comportamento ativo na exploração do mercado e descoberta de oportunidades. O modelo básico de monopólio foi questionado e reexaminado, em um contexto dinâmico da economia, pelo renomado Joseph Schumpeter.
+\end{citacao}
+
+Ignorando que Schumpeter era crítico do individualismo metodológico do paradigma, chamo atenção à questão da falseabilidade no campo das ciências exatas. Os autores ao memso em que propõem uma visão positivista da ciência econômica,
+
+E o entrincheiramento continua com argumentos *ad-hominem*: se um economista é crítico à economia como ciência exata, então ele não compreende matemática:
+
+\begin{citacao}
+Vejamos o problema da incompreensão da matemática. Os críticos do uso da matemática na economia, em geral, não são economistas matemáticos. Muitos deles não tiveram uma formação profissional em matemática. Enveredaram por outras áreas. Não quer dizer que não tenham sido bons estudantes de matemática. Marshall, por exemplo, um crítico da matemática na economia, cujo emprego, para ele, não deveria ser abusivo, mostrou-se, antes de concentrar-se na economia, um excelente matemático. Até mesmo Carl Menger, o pai da escola austríaca, totalmente crítico ao uso da matemática na economia, ao que consta, fora um bom estudante de matemática no ensino médio. Keynes foi um crítico da matemática, contudo, bom matemático, mesmo sem ter a mente e a experiência de um matemático profissional. Inclusive, ele graduou-se, com distinção, nessa disciplina
+\end{citacao}
+
+Imagine criticar Foucault dizendo: "os críticos do estado policial, em geral, não são policiais. Muitos deles não tiveram uma formação profissional no militarismo".
+
+\begin{citacao}
+É perfeitamente compreensível a visão contrária à matemática desses expoentes clássicos da economia científica. Até porque eles estavam presos ao desenvolvimento matemático de sua época. O problema é quando, hoje em dia, os membros das escolas legadas por eles apegam-se às mesmas críticas ao uso da matemática, sustentando-as em uma visão tosca e atrasada da matemática.
+Criticam, por exemplo, que as variáveis econômicas não obedecem a relações funcionais. Mas quem disse que a economia matemática atual emprega funções? Os economistas do paradigma amiúde trabalham com correspondências, mapas e outras técnicas matemáticas muito mais poderosas do que as funções. Criticam o uso da matemática na economia com base no argumento de que as variáveis econômicas não descrevem uma trajetória bem comportada; de forma que não podem ser acompanhadas por curvas contínuas e suaves, isto é, diferenciáveis em todos os pontos. Quem disse que o paradigma atual tenha de lançar a hipótese de diferenciabilidade e que só emprega o cálculo diferencial e integral? Na verdade, os economistas atuais do paradigma trabalham com análise convexa, que prescinde a diferenciabilidade das funções, tomando apenas a hipótese bem mais fraca da convexidade. Não se impõe mais a existência de curvas contínuas. Trabalha-se com descrições bem mais gerais e flexíveis, como a de semicontinuidade superior (upper semicontinuos) etc. O uso do cálculo em economia matemática há muito foi substituído pela análise convexa, pela topologia e pela topologia diferencial.
+\end{citacao}
+
+Pois bem, tomemos a 
 
 # O ECONOMISTA PROGRAMADO
 
 \begin{citacao}
-Sem explicá-lo por enquanto, é suficiente dizer que o paradigma kuhniano da economia é aquilo que os estudantes de graduação são obrigados a aprender nas disciplinas teóricas. Todo estudante de macroeconomia estuda os livros-textos escritos por autores como Blanchard, Boyes, Dornbusch, [...]. Então constata-se, no Brasil e no “mundo livre”, que os estudantes são submetidos à mesma formação, pois, em que pese as diferenças de abordagem, de estilo e de profundidade, todos esses manuais didáticos de teoria econômica assemelham-se entre si em muitos aspectos. Em todos eles, vicejam as instituições da propriedade privada, do contrato, do agente maximizador etc. como pressupostos dos modelos teóricos. Todos abordam os problemas econômicos com álgebra e gráficos, e desenvolvem modelos de equilíbrio.
+Sem explicá-lo por enquanto, é suficiente dizer que o paradigma kuhniano da economia é aquilo que os estudantes de graduação são obrigados a aprender nas disciplinas teóricas. Todo estudante de macroeconomia estuda os livros-textos escritos por autores como Blanchard, Boyes, Dornbusch, [...]. Então constata-se, no Brasil e no ``mundo livre", que os estudantes são submetidos à mesma formação, pois, em que pese as diferenças de abordagem, de estilo e de profundidade, todos esses manuais didáticos de teoria econômica assemelham-se entre si em muitos aspectos. Em todos eles, vicejam as instituições da propriedade privada, do contrato, do agente maximizador etc. como pressupostos dos modelos teóricos. Todos abordam os problemas econômicos com álgebra e gráficos, e desenvolvem modelos de equilíbrio.
 Essa formação homogênea dos estudantes é característica da prática científica que Kuhn denomina de ciência normal. Típica em ciências com paradigmas consolidados. O paradigma da economia submete os estudantes à mesma formação teórica básica. É claro que o treinamento assemelhado leva os profissionais formados nesse ambiente a atuarem de uma maneira padronizada no trabalho com suas teorias e no teste empírico delas.
 \end{citacao}
 
+# REFERÊNCIAS
+
+\bibliography{config/bib.bib}

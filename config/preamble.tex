@@ -3,16 +3,45 @@
 \usepackage{indentfirst, float, graphicx, psfrag, fancyhdr}
 \usepackage{times, amsmath, amsfonts, amssymb, amsthm}
 \usepackage{xcolor, url, placeins, sectsty, enumitem}
-\usepackage{polyglossia, natbib, dcolumn}
+\usepackage{polyglossia, dcolumn, lastpage}
 \usepackage[T1]{fontenc}
 \usepackage[skip = 2pt, size = normalsize]{caption}
 \usepackage[labelfont = bf]{caption}
+\usepackage[backend=biber, style=abnt, ittitles, justify, indent]{biblatex}
 
 % fontes
 \setmainfont{Times New Roman}
 \setmonofont[Scale=0.9, Scale=MatchLowercase]{Consolas}
 \sectionfont{\fontsize{12}{15}\selectfont}
 \subsectionfont{\fontsize{12}{15}\selectfont}
+\setlength\parindent{1.5cm}
+%\renewenvironment{Shaded}
+%    {\begin{snugshade}
+%    \begin{singlespace}
+%    \linespread{0.5}
+%    }
+%    {\end{singlespace}
+%    \end{snugshade}
+%}
+
+% linguagem
+\setdefaultlanguage{portuguese}
+\deftocheading{toc}{}%
+\deftocheading{lot}{}%
+\deftocheading{lof}{}%
+
+% cabeçalho e rodapé
+\lhead{}
+\chead{}
+\rhead{\thepage}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0pt}
+
+% espaçamento
+\onehalfspacing
+\linespread{1.5}
 
 % ambiente citação
 \newenvironment{citacao}
@@ -24,33 +53,23 @@
     \end{quoting}
 }
 
-% tamanho da legenda
+% legenda
 \captionsetup[figure]{font=scriptsize}
+\captionsetup{labelsep = endash, format = hang, width = \textwidth}
 
 % posição das figuras
 \floatplacement{figure}{H}
-
-% bibliografia
-\renewcommand{\bibsection}{}
-
-% espaçamento
-\onehalfspacing
-\linespread{1.5}
-
-% cabeçalho e rodapé
-\lhead{}
-\chead{}
-\rhead{\thepage}
-\lfoot{}
-\cfoot{}
-\rfoot{}
-\renewcommand{\headrulewidth}{0pt}
-
-% linguagem
-\setdefaultlanguage{portuguese}
-\deftocheading{toc}{}%
-\deftocheading{lot}{}%
-\deftocheading{lof}{}%
+\floatplacement{table}{H}
 
 % estilo
 \pagestyle{fancy}
+
+% bibliografia
+\addbibresource{config/bib.bib}
+\addbibresource{config/packages.bib}
+
+% matrizes
+\setcounter{MaxMatrixCols}{20}
+
+% equações
+\renewcommand{\theequation}{\arabic{equation}}

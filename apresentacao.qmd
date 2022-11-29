@@ -1,0 +1,49 @@
+---
+title: "TEORIA MONETÁRIA MODERNA"
+subtitle: "ESPECIFICAR"
+author: Alberson Miranda
+date: '`r format(Sys.Date(), "%B de %Y")`'
+navigation: horizontal
+format:
+    beamer:
+        theme: "Madrid"
+        include-in-header: config/preamble_apresentacao.tex
+        output-file: render/apresentacao.pdf
+        toc: true
+        toc-title: SUMÁRIO
+execute:
+    echo: false
+cite-method: biblatex
+incremental: true
+---
+
+### OBJETIVO
+
+QUAL?
+
+# PRINCÍPIOS DA MMT
+
+## O QUE HÁ DE MODERNO NA MMT?
+
+- Introdução Wray
+
+# TEORIA DA MOEDA WALRASIANA
+
+## EQUILÍBRIO GERAL
+
+- Seção VI: Teoria da Circulação e da Moeda \cite{walras_leon_compendio_1986}
+- Famílias e empresas conhecem a todo momento os preços de compra e venda de produtos e, consequentemente, suas necessidades de demanda por moeda, formando um equilíbrio geral analítico
+- Contínua perturbação e restabelecimento do equilíbrio através do mecanismo de livre concorrência
+
+---
+
+### INFLAÇÃO
+
+"Todo aumento ou diminuição na quantidade da mercadoria-moeda tem como efeito um aumento ou diminuição sensivelmente proporcional nos preços"
+
+## MOEDA-MERCADORIA
+
+- A moeda é uma mercadoria e seu preço varia de acordo com sua raridade, da mesma forma que qualquer outra mercadoria
+- Instrumental: "a necessidade que se tem de moeda não passa da necessidade que se tem das mercadorias que podem ser compradas com essa moeda"
+
+# REFERÊNCIAS

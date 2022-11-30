@@ -1,6 +1,6 @@
 ---
 title: "TEORIA MONETÁRIA MODERNA"
-subtitle: "ESPECIFICAR"
+subtitle: "uma crítica ao mainstream"
 author: Alberson Miranda
 date: '`r format(Sys.Date(), "%B de %Y")`'
 navigation: horizontal
@@ -19,17 +19,7 @@ incremental: true
 
 ### OBJETIVO
 
-QUAL?
-
-# PRINCÍPIOS DA MMT
-
-## O QUE HÁ DE MODERNO NA MMT?
-
-- Argumentação sob a ótica da contabilidade social contemporânea (ex.: transações entre Tesouro e Banco Central)
-
-## ECONOMIA NÃO É ORÇAMENTO FAMILIAR
-
-
+Apresentar as críticas da Teoria Monetária Moderna (MMT) ao *mainstream* e explicitar sua aproximação à corrente keynesiana
 
 # TEORIA DA MOEDA WALRASIANA
 
@@ -49,5 +39,42 @@ QUAL?
 
 - A moeda é uma mercadoria e seu preço varia de acordo com sua raridade, da mesma forma que qualquer outra mercadoria
 - Instrumental: "a necessidade que se tem de moeda não passa da necessidade que se tem das mercadorias que podem ser compradas com essa moeda"
+
+# PRINCÍPIOS DA MMT
+
+## O QUE HÁ DE MODERNO NA MMT?
+
+Argumentação sob a ótica da contabilidade social contemporânea (ex.: transações entre Tesouro e Banco Central)
+
+## O QUE HÁ DE MODERNO NA MMT?
+
+- *The sovereign government cannot become insolvent in its own currency; it can always make all payments as they come due in its own currency* \cite{wray_modern_2015}
+
+- Não inclui estados e municípios
+- Exclui nações da zona do Euro
+
+---
+
+### 1ª CONCLUSÃO
+
+Um Estado soberano não requer tributação prévia para gastar. Pelo contrário, precisa gastar antes para que os agentes possam pagar seus tributos.
+
+## O QUE HÁ DE MODERNO NA MMT?
+
+- *Sovereign government does not need to "borrow" its currency in order to spend* \cite{wray_modern_2015}
+- A comercialização de títulos é a operacionalização da política monetária, com objetivo de alcançar uma determinada taxa de juro
+
+## O QUE HÁ DE MODERNO NA MMT?
+
+- Princípio das partidas dobradas: todo ativo tem um passivo correspondente
+- Um título de dívida é um passivo do Estado e um ativo para famílias e firmas
+- Reduzir a dívida pública significa zerar sua contrapartida nas famílias e firmas
+
+---
+
+### 2ª CONCLUSÃO
+
+
+
 
 # REFERÊNCIAS

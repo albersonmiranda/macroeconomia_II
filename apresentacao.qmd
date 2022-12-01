@@ -1,6 +1,5 @@
 ---
 title: "TEORIA MONETÁRIA MODERNA"
-subtitle: "uma crítica ao mainstream"
 author: Alberson Miranda
 date: '`r format(Sys.Date(), "%B de %Y")`'
 navigation: horizontal
@@ -53,7 +52,7 @@ Apresentar as críticas da Teoria Monetária Moderna (MMT) ao *mainstream* e exp
 - Tanto o volume dos fundos disponíveis como a taxa de juros são determinados pela oferta de crédito, que por sua vez é criada pelo Estado e pelo sistema bancário e não é restrita pela poupança
 - A oferta de crédito é determinada de forma endógena pelo sistema bancário de acordo com as expectativas \cite{resende_camisa_2022}
 
-# PRINCÍPIOS DA MMT
+# TEORIA MONETÁRIA MODERNA
 
 ## O QUE HÁ DE MODERNO NA MMT?
 
@@ -76,6 +75,7 @@ Um Estado soberano não requer tributação prévia para gastar. Pelo contrário
 
 - *Sovereign government does not need to "borrow" its currency in order to spend* \cite{wray_modern_2015}
 - A comercialização de títulos é a operacionalização da política monetária, com objetivo de alcançar uma determinada taxa de juro
+- Mesma conclusão de Keynes: a taxa de juros é exógena e a moeda é endógena, ou seja, não é o mercado que define a taxa de juros.
 
 ## O QUE HÁ DE MODERNO NA MMT?
 
@@ -93,5 +93,33 @@ Uma política de orçamento equilibrado significa que não há contribuição l�
 
 - Numa economia com 2 setores, governo e privado, o déficit do governo é o superávit do setor privado
 - Se o governo opera em superávit contínuo, ou seja, $T > G$, então o setor privado tem queda em sua riqueza financeira líquida
+- A dívida pública tem efeito concentrador na distribuição de renda: o passivo é social mas o ativo é dos detentores de riqueza financeira
+
+## O QUE HÁ DE MODERNO NA MMT?
+
+- Então não há limites para a política monetária?
+- A taxa de juros da dívida no longo prazo deve ser menor que a taxa de crescimento para que a relação dívida/PIB não seja explosiva
+
+## O QUE HÁ DE MODERNO NA MMT?
+
+Se o estado não precisa de financiamento e os títulos são apenas instrumentos de política monetária, **para que serve a tributação**?
+
+## O QUE HÁ DE MODERNO NA MMT?
+
+- legitimização da moeda: como aparato coercitivo do Estado, a tributação força a aceitação da moeda
+- estabilização da demanda agregada
+- redistribuição de renda
+
+---
+
+### 3ª CONCLUSÃO
+
+*Tax drive money*: a tributação é o instrumento do Estado para direcionar, controlar e redistribuir a renda na economia
+
+## O QUE HÁ DE MONDERNO NA MMT?
+
+- Demais implicações:
+    - Refutação da Curva de Phillips: não é necessário desemprego para manter a inflação sob controle
+    - Possibilidade de política de *job guarantee*: desemprego e pobreza são ferramentas de política aceitáveis para manutenção da estabilidade financeira?
 
 # REFERÊNCIAS

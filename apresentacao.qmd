@@ -39,6 +39,19 @@ Apresentar as críticas da Teoria Monetária Moderna (MMT) ao *mainstream* e exp
 
 - A moeda é uma mercadoria e seu preço varia de acordo com sua raridade, da mesma forma que qualquer outra mercadoria
 - Instrumental: "a necessidade que se tem de moeda não passa da necessidade que se tem das mercadorias que podem ser compradas com essa moeda"
+- Teoria dos Fundos de Empréstimo: I = S. É necessária poupança prévia ao investimento
+
+# TEORIA DA MOEDA KEYNESIANA
+
+## MOEDA COMO FATO SOCIAL
+
+- Cap. 21: A Teoria dos Preços \cite{keynes_teoria_2017}
+- "A agudeza e as peculiaridades de nossos problemas contemporâneos emanam, portanto, do fato de que a taxa média de juros compatível com um volume médio razoável de emprego pode ser inaceitável para os possuidores de riqueza, de forma que seja impossível estabelecê-la facilmente por meio de simples manipulações da quantidade de dinheiro"
+
+## REFUTAÇÃO DA TEORIA DOS FUNDOS DE EMPRÉSTIMO
+
+- Tanto o volume dos fundos disponíveis como a taxa de juros são determinados pela oferta de crédito, que por sua vez é criada pelo Estado e pelo sistema bancário e não é restrita pela poupança
+- A oferta de crédito é determinada de forma endógena pelo sistema bancário de acordo com as expectativas \cite{resende_camisa_2022}
 
 # PRINCÍPIOS DA MMT
 
@@ -74,7 +87,11 @@ Um Estado soberano não requer tributação prévia para gastar. Pelo contrário
 
 ### 2ª CONCLUSÃO
 
+Uma política de orçamento equilibrado significa que não há contribuição líquida do Estado na economia e não há qualquer razão para se buscar tal objetivo
 
+## O QUE HÁ DE MODERNO NA MMT?
 
+- Numa economia com 2 setores, governo e privado, o déficit do governo é o superávit do setor privado
+- Se o governo opera em superávit contínuo, ou seja, $T > G$, então o setor privado tem queda em sua riqueza financeira líquida
 
 # REFERÊNCIAS

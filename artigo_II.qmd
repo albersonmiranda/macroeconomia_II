@@ -1,0 +1,26 @@
+---
+title: "TEORIA MONETÁRIA MODERNA"
+subtitle: "aspectos keynesianos e algumas críticas ao mainstream"
+author: "Alberson da Silva Miranda"
+date: "`r format(Sys.Date(), '%B de %Y')`"
+biblio-style: apalike
+cite-method: natbib
+fontsize: "12"
+geometry: margin=1in
+number-sections: true
+format:
+    pdf:
+        include-in-header: config/preamble.tex
+---
+
+# INTRODUÇÃO {-}
+
+A política monetária tem ocupado espaço no debate econômico, inclusive a nível popular
+
+# ECONOMIA MONETÁRIA NO MAINSTREAM
+
+No *mainstream*, a moeda é uma mercadoria e, como qualquer outra mercadoria, seu preço varia de acordo com sua raridade \cite{walras_leon_compendio_1986}
+
+# REFERÊNCIAS {-}
+
+\bibliography{config/bib.bib}

@@ -1,6 +1,6 @@
 ---
 title: "TEORIA MONETÁRIA MODERNA"
-subtitle: "aspectos keynesianos e algumas críticas ao mainstream"
+subtitle: "Aspectos keynesianos e algumas críticas ao mainstream"
 author: "Alberson da Silva Miranda"
 date: "`r format(Sys.Date(), '%B de %Y')`"
 format:
@@ -25,12 +25,23 @@ A política monetária tem ocupado espaço no debate econômico, inclusive a ní
 
 # ECONOMIA MONETÁRIA NO MAINSTREAM
 
-Dois dos pilares teóricos da economia do *mainstream* são o equilíbrio e a racionalidade dos agentes. Segundo esse corpo teórico, os agentes econômicos sabem, a qualquer instante dado:
+Dois dos pilares teóricos da economia do *mainstream* são o equilíbrio e a racionalidade dos agentes. Para que o mecanismo concorrencial seja também um mecanismo de convergência para o equilíbrio, os agentes econômicos devem saber, a qualquer instante dado, os preços de todo bem ou serviço. Além disso, também
+são hipóteses necessárias o conhecimento de:
 
 \begin{citacao}
 1) que provisões em produtos deve ter para sua comodidade; 2) quanto deve ter em caixa para restabelecer essas provisões e para comprar produtos e serviços consumíveis, à medida que são consumidos (esperando que esgotem os prazos de seus arrendamentos, de seus dalários e de seus juros), quer para comprar capitais novos. \cite{walras_leon_compendio_1986}
 \end{citacao}
 
-Isso permitiria às famílias e empresas a moeda é uma mercadoria e, como qualquer outra mercadoria, seu preço varia de acordo com sua raridade 
+Nesse sentido, "a necessidade que se tem de moeda não passa da necessidade que se tem das mercadorias que podem ser compradas com essa moeda". A moeda é uma mercadoria e seu preço varia de acordo com sua raridade, da mesma forma que qualquer outra mercadoria. Assim, o mercado monetário também está sujeito ao mecanismo concorrencial e é dotado de equilíbrio analítico, ou seja, pode ser conhecido, calculado e tem solução única. Excessos ou deficiência de moeda são apenas distúrbios momentâneos, com o equilíbrio do mercado sendo restabelecido via livre concorrência.
+
+O valor da moeda é determinado a partir da equivalência entre a quantidade de mercadorias em circulação e a quantidade de moeda necessária para comprá-las. Assim, menor quantidade de moeda deve resultar em menores preços (e maior quantidade de moeda deve resultar em maior nível de preços) para manter a equivalência. Nas palavras de \textcite{walras_leon_compendio_1986}, "Todo aumento ou diminuição na quantidade da mercadoria-moeda tem como efeito um aumento ou diminuição sensivelmente proporcional nos preços", ou seja, os movimentos inflacionários e deflacionários se dão pela relação entre a raridade da mercadoria-moeda e da raridade das mercadorias em circulação.
+
+Duas implicações desse caráter insturmental da moeda são:
+
+1. A taxa de juros é endógena. A autoridade monetária tem controle da quantidade de moeda que
+1. É necessário manter desemprego para 
+
+1. Moeda exógena, taxa de juros endógena. A taxa de juros é definida no mercado monetário e determinada 
+1. Teoria dos Fundos de Empréstimos: $I = S$. É necessária poupança prévia ao investimento
 
 # REFERÊNCIAS {-}

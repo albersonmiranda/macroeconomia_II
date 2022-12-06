@@ -36,12 +36,10 @@ Nesse sentido, "a necessidade que se tem de moeda não passa da necessidade que 
 
 O valor da moeda é determinado a partir da equivalência entre a quantidade de mercadorias em circulação e a quantidade de moeda necessária para comprá-las. Assim, menor quantidade de moeda deve resultar em menores preços (e maior quantidade de moeda deve resultar em maior nível de preços) para manter a equivalência. Nas palavras de \textcite{walras_leon_compendio_1986}, "Todo aumento ou diminuição na quantidade da mercadoria-moeda tem como efeito um aumento ou diminuição sensivelmente proporcional nos preços", ou seja, os movimentos inflacionários e deflacionários se dão pela relação entre a raridade da mercadoria-moeda e da raridade das mercadorias em circulação.
 
-Duas implicações desse caráter insturmental da moeda são:
+Esse caráter instrumental da moeda tem algumas implicações. Primeiramente, a taxa de juros é endógena. Será definida pelas transações no mercado monetário enquanto busca a quantidade de moeda de equilíbrio. O controle da autoridade monetária se dá pelo controle quantidade de moeda e a taxa de juros é uma consequência do equilíbrio de mercado.
 
-1. A taxa de juros é endógena. A autoridade monetária tem controle da quantidade de moeda que
-1. É necessário manter desemprego para 
+Em segundo lugar, um nível de emprego que signifique quantidade de moeda acima do nível de equilíbrio irá, necessariamente, causar inflação na mesma proporção do aumento da moeda, de forma a anular esse excesso. Portanto, algum nível de pobreza e desemprego é justificado e necessário em nome da estabilidade monetária (Curva de Phillips).
 
-1. Moeda exógena, taxa de juros endógena. A taxa de juros é definida no mercado monetário e determinada 
-1. Teoria dos Fundos de Empréstimos: $I = S$. É necessária poupança prévia ao investimento
+Outra conclusão de fundamental importância é a Teoria dos Fundos de Empréstimos. Como o aumento da massa monetária acima do nível de equilíbrio não afeta a renda real, a política monetária é neutra. Assim, o investimento requer poupança prévia: $I=S$.
 
 # REFERÊNCIAS {-}

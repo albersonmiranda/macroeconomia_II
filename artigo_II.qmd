@@ -21,9 +21,41 @@ crossref:
 
 # INTRODUÇÃO {-}
 
-A política monetária tem ocupado espaço no debate econômico, inclusive a nível popular
+A política monetária tem ocupado espaço no debate econômico, inclusive a nível popular. De um lado, a visão da economia política clássica — ancorado no Equilíbrio Geral Walrasiano e Teoria das Expectativas Racionais, por exemplo —, que segue viva ainda hoje; do outro lado, um inimigo formidável, o cidadão comum dotado com a humildade de fazer a pergunta mais básica: *por que não podemos apenas imprimir mais dinheiro?*.
 
-# ECONOMIA MONETÁRIA NO MAINSTREAM
+No debate popular, representantes do *mainstream* repetem quase que literalmente a Seção VI (Teoria da Circulação e da Moeda) do Compêndio dos Elementos de Economia Política Pura de Walras:
+
+\begin{citacao}
+De forma simplificada, imprimir dinheiro em excesso pode sim, gerar inflação.
+Isso acontece porque a emissão de notas demais faz com que o volume de dinheiro circulando seja maior que a oferta de produtos e serviços. Consequentemente, os preços sobem. [...] Se infinitas notas fossem impressas, a quantidade de dinheiro seria maior que a oferta de produtos e serviços.
+[...] Por aqui, o Banco Central do Brasil é responsável por garantir a quantidade adequada de papel-moeda para a população. \cite{nubank_imprimir_2021}
+\end{citacao}
+
+Essa visão, no entanto, requer uma visão estreita de que a criação de moeda seja necessariamente utilizada para consumo, de forma que pressione a matriz produtiva e tenha seu efeito anulado pela inflação. A moeda deve ser neutra e é um instrumento facilitador de trocas de mercadorias.
+
+\begin{citacao}
+“Imprimir mais dinheiro não é uma opção de política pública, é uma falta de opção”, disse o economista Josué Pellegrini, analista do IFI (Instituto Fiscal Independente), centro de pesquisas em contas públicas do Senado Federal. “É um mecanismo a que os governos recorrem quando não conseguem mais pagar a dívida, o que não deixa de ser uma espécie de calote”, afirmou Pellegrini, que também já foi gestor de políticas públicas do Ministério da Fazenda.
+“Emitir moeda faz as pessoas terem mais dinheiro e quererem comprar mais, mas a quantidade de coisas disponíveis continua a mesma, e isso faz os preços subirem”, disse Marcelo Balassiano, pesquisador sênior em economia aplicada do Ibre/FGV (Instituto Brasileiro de Economia da Fundação Getulio Vargas). \cite{uol}
+\end{citacao}
+
+Por outro lado, o cidadão comum se pergunta: por que o governo não pode criar moeda para investir e criar emprego? Se é o governo quem cria a moeda, por que ele precisa do meu? Por que sempre há dinheiro para pagar a dívida pública e auxiliar bancos e empresa em falência, mas nunca há para o aumento dos salários dos professores? A inflação é seletiva?
+
+Recentemente, esse debate ganhou força na esfera pública. Primeiro nos Estados Unidos, com a adesão de jovens políticos como a congressista eleita em 2018 Alexandria Ocasio-Cortez, que citou em entrevista que a "Modern Monetary Theory (MMT) should be a larger part of the conversation". Depois, aqui no Brasil, com o próprio presidente Lula abordando o assunto diretamente, ao mesmo tempo em que traz para a equipe de transição expoentes do assunto em nível nacional, como André Lara Resende.
+
+::: {#fig-tweets layout-ncol=2}
+
+![Para que servem os impostos?](img/tweet_1.png){#fig-tweet_1}
+
+![Todo aumento de moeda gera inflação?](img/tweet_2.png){#fig-tweet_2}
+
+Tweets
+:::
+
+Neste trabalho, busco apresentar algumas das ideias e propostas da Teoria Monetária Moderna, assim como algumas críticas à teoria da moeda do *mainstream* a partir de Keynes.
+
+# TEORIA DA MOEDA NO MAINSTREAM
+
+A teoria econômica pode ser vista como um conjunto organizado de ideias que tenta trazer sentido para diversos fenômenos *sociais* que à primeira vista parecem caóticos.
 
 Dois dos pilares teóricos da economia do *mainstream* são o equilíbrio e a racionalidade dos agentes. Para que o mecanismo concorrencial seja também um mecanismo de convergência para o equilíbrio, os agentes econômicos devem saber, a qualquer instante dado, os preços de todo bem ou serviço. Além disso, também
 são hipóteses necessárias o conhecimento de:
@@ -36,10 +68,67 @@ Nesse sentido, "a necessidade que se tem de moeda não passa da necessidade que 
 
 O valor da moeda é determinado a partir da equivalência entre a quantidade de mercadorias em circulação e a quantidade de moeda necessária para comprá-las. Assim, menor quantidade de moeda deve resultar em menores preços (e maior quantidade de moeda deve resultar em maior nível de preços) para manter a equivalência. Nas palavras de \textcite{walras_leon_compendio_1986}, "Todo aumento ou diminuição na quantidade da mercadoria-moeda tem como efeito um aumento ou diminuição sensivelmente proporcional nos preços", ou seja, os movimentos inflacionários e deflacionários se dão pela relação entre a raridade da mercadoria-moeda e da raridade das mercadorias em circulação.
 
-Esse caráter instrumental da moeda tem algumas implicações. Primeiramente, a taxa de juros é endógena. Será definida pelas transações no mercado monetário enquanto busca a quantidade de moeda de equilíbrio. O controle da autoridade monetária se dá pelo controle quantidade de moeda e a taxa de juros é uma consequência do equilíbrio de mercado.
+Nesse campo teórico, a moeda não possui uma dimensão social ativa, mas é apenas um instrumento facilitador:
 
-Em segundo lugar, um nível de emprego que signifique quantidade de moeda acima do nível de equilíbrio irá, necessariamente, causar inflação na mesma proporção do aumento da moeda, de forma a anular esse excesso. Portanto, algum nível de pobreza e desemprego é justificado e necessário em nome da estabilidade monetária (Curva de Phillips).
+\begin{citacao}
+Nesse tipo de conformação social, a moeda tem um papel meramente secundário. Ela pode, no máximo, servir como um elemento facilitador das trocas e, além disso, funcionar como unidade de conta e reserva de valor. Mas não há papel para a moeda como elo da relação social entre os produtores independentes. Estes já foram pré-conciliados pela ação decisiva de sua própria racionalidade, manifestada de forma espontânea mediante a liberdade garantida previamente pelo Estado. Se desse arranjo social fosse retirado esse véu monetário, nada mudaria em essência. Os indivíduos criariam suas próprias relações de troca e sua própria moeda a partir de seus hábitos pretéritos e dos custos de produção de seus bens e serviços. \textbf{A moeda aqui não é mais que uma tecnologia social. Algo que nasce para auxiliar o processo de troca e para torná-lo mais produtivo e eficaz}. \cite{belluzzo_gestao_2021}
+\end{citacao}
 
-Outra conclusão de fundamental importância é a Teoria dos Fundos de Empréstimos. Como o aumento da massa monetária acima do nível de equilíbrio não afeta a renda real, a política monetária é neutra. Assim, o investimento requer poupança prévia: $I=S$.
+Esse caráter instrumental da moeda tem algumas implicações. Primeiramente, a taxa de juros é endógena. Será definida pelas transações no mercado monetário enquanto busca a quantidade de moeda de equilíbrio. O controle da autoridade monetária se dá pelo controle quantidade de moeda e a taxa de juros é uma consequência do equilíbrio de mercado. Em segundo lugar, um nível de emprego que signifique quantidade de moeda acima do nível de equilíbrio irá, necessariamente, causar inflação na mesma proporção do aumento da moeda, de forma a anular esse excesso. Portanto, algum nível de pobreza e desemprego é justificado e necessário em nome da estabilidade monetária (Curva de Phillips).
+
+Outra conclusão de fundamental importância é a Teoria dos Fundos de Empréstimos. Como o aumento da massa monetária acima do nível de equilíbrio não afeta a renda real, a política monetária é neutra. Assim, o investimento não pode ser financiado por geração de moeda pelo Estado, restando apenas a poupança prévia: $I=S$.
+
+Já em Keynes, a política monetária adquire uma dimensão social, expondo os conflitos entre os donos da riqueza e os desprovidos dela:
+
+\begin{citacao}
+A agudeza e as peculiaridades de nossos problemas contemporâneos
+emanam, portanto, do fato de que a taxa média de juros compatível
+com um volume médio razoável de emprego pode ser inaceitável para
+os possuidores de riqueza, de forma que seja impossível estabelecê-la
+facilmente por meio de simples manipulações da quantidade de
+dinheiro. \cite{keynes_teoria_2017}
+\end{citacao}
+
+A esfera monetária, então, está no cerne do campo de batalha social moderno. Juros, inflação e nível de emprego são algumas das variáveis macroeconômicas que, sob o disfarce de um suposto equilíbrio causado pelo conjunto de ações individuais racionais, estão sujeitas a um jogo de forças contraditório:
+
+\begin{citacao}
+A luta social ganha uma dimensão decisiva: a dimensão monetária, que envolve o Estado e todos os agentes privados. Estes buscam simultaneamente corromper e preservar a estabilidade do padrão monetário, em um movimento contraditório próprio do funcionamento de uma economia capitalista. Corromper, pois por um lado trata-se de apropriar-se da riqueza mesmo que à custa da ruptura do padrão monetário4. Preservar, pois o padrão monetário é o único critério de medida da riqueza já acumulada em circuitos prévios de acumulação. Tal ambivalência estaria no cerne da questão monetária, sendo mesmo sua característica mais expressiva. \cite{belluzzo_gestao_2021}
+\end{citacao}
+
+É essencial para o capitalismo financeiro que o Estado tenha sua situação restrita e controlada, de forma que sua atuação possa ser direcionada de acordo com seus interesses, que não necessariamente passam pelo aumento de produtividade e bem-estar da sociedade. A moeda então é elemento central da organização capitalista e a racionalidade dos agentes é insuficiente para sua determinação e atuação.
+
+Mas, se ela não é um mero instrumento determinado pelo equilíbrio de mercado, qual são seus verdadeiros mecanismos e potencial de atuação? Qualquer possibilidade de ampliação da atuação da moeda como política pública deve passar, necessariamente, pela refutação da teoria dos fundos de empréstimo. Keynes, na Teoria Geral, rejeita essa hipótese, defendendo que o investimento não é determinado pelo nível de poupança, mas é exógeno e depende em grande parte das expectativas e do otimisto (*animal spirits*). Por consequência, a taxa de juros seria também exógena, e não fixada através do equilíbrio entre investimento e poupança. Assim, tanto o volume dos fundos disponíveis quanto a taxa de juros são determinados pela oferta de crédito que, por sua vez, é criada pelo Estado e pelo sistema bancário, independente do nível de poupança prévia.
+
+# TEORIA MONETÁRIA MODERNA
+
+Entendo a Teoria Monetária Moderna (MMT) como uma abordagem Keynesiana com uma roupagem contemporânea. Essa roupagem seria uma argumentação sob a ótima da contabilidade social contemporânea, voltada para identidades contábeis (por exemplo, déficit público \equiv riqueza financeira líquida privada), ao invés de igualdades macroeconômicas que sugerem um equilíbrio delicado operado por uma mão invisível (por exemplo, $I=S$).
+
+As contribuições da MMT partem de uma crítica ao discurso costumaz na tecnocracia política de que o Estado deve, assim como as famílias, buscar um orçamento equilibrado — obtendo superávits, preferenciamente —, sob o risco de quebra. Sob a ótica da MMT, tal risco inexiste porque a dívida pública é devida na moeda do próprio Estado. Nas palavras de \cite{wray_modern_2015}, "The sovereign government cannot become insolvent in its own currency; it can always make all payments as they come due in its own currency".
+
+Dessa hipótese, a conclusão imediata é de que um Estado soberano não requer tributação prévia para gastar^[Como Estado soberano, quando o assunto é emissão de moeda, me refiro à governos centrais com capacidade de geração. Isso exclui, naturalmente, governos estaduais e municipais (no caso de repúblicas federativas) e países da zona do euro, por exemplo.]. E podemos ir além, não é que o Estado não precisa de tributação prévia, ele não precisa de *financiamento* em moeda própria. Isso quer dizer, que uma nação soberana não precisa de tomar emprestado sua própria moeda para gastar. Isso vai de encontro a todo um discurso de que o Estado emite títulos para se financiar, para "rolagem da dívida". Não, a emissão de títulos públicos é a forma do governo operacionalizar a política monetária, com o objetivo de alcançar uma determinada taxa de juros de interesse. Nesse sentido, a MMT é coerente com a corrente keynesiana: a taxa de juros é exógena e a moeda é endógena, no sentido de que a taxa de juros não é definida pelo equilíbrio $S=I$.
+
+Ainda acerca da dívida pública, a MMT questiona a forma com que os governos abordam seu controle:
+
+\begin{citacao}
+The most "unsound" budgetary policy is mindless pursuit of something called a "balanced budget" — meaning one in which tax "revenues" exactly match government spending over a stated period (usually a year). If that outcome is achieved, it means that all the government's currency supplied through its spending will have been "returned" in tax payments so that the nongovernment sector has nothing left — no extra funds to set aside for the proverbial "rainy day". [...] \textbf{if the government runs a "balanced budget", it will have made no net contribution to the financial wealth of the nation. It is hard to see why anyone would advocate such a crazy goal}. \cite{wray_modern_2015}
+\end{citacao}
+
+Para suportar essa afirmação, Wray demonstra o raciocínio a partir da contabilidade social de que a MMT se utiliza. O princípio contábil fundamental é o das partidas dobradas: todo ativo tem um passivo correspondente. Assim, a moeda e os títulos da dívida pública são passivo para o Estado e ativo para as famílias e firmas. Então, se todo gasto do governo, ou seja, se todo ativo gerado para as famílias e firmas são retornadas em tributação, temos que uma política de orçamento equilibrado resulta na anulação da contribuição líquida do Estado na economia.
+
+Pior ainda, um governo operando em superávit contínuo é visto como um governo responsável, algo baseado na visão torpe de que o governo deve ser gerido como na finança familiar. Pensando numa economia com dois setores (governo e setor privado), pelo princípio das partidas dobradas, o défict do governo é o superávit do setor privado. Se $T>G$ de forma contínua, então o governo estará não sendo responsável, mas sim drenando o setor privado! Este necessariamente terá queda em sua riqueza financeira líquida.
+
+Agora, se o Estado não precisa de financiamento e os títulos públicos são apenas instrumentos de política monetária, então para que servem os impostos? A primeira função é a de legitimização da moeda do Estado. A tributação atua como aparato coercitivo do Estado para forçar a aceitação de sua moeda. Ela, e somente ela, é aceita pelo credor primeiro da nação. Mais uma vez, tal conclusão também não escapa do senso de humor do cidadão comum:
+
+![O aparato coercitivo do Estado na legitimização da moeda](img/tweet_3.png){#fig-tweet_3 width=70%}
+
+A segunda função é a de alocação da renda na economia — *tax drive money*. A tributação é o instrumento do Estado para direcionar, controlar e redistribuir a renda em uma economia. O sistema tributário, através de incentivos e taxação, permite ao governo estimular a alocação da renda nos setores da sociedade de seu interesse, além de o tornar capaz de redistribuir a riqueza e renda por meio de um sistema progressivo. Por último, temos a função de estabilização da demanda agregada, que  evita expansões desenfreadas e processos inflacionários.
+
+Além disso, a MMT defende também a política monetária como instrumento de manutenção do pleno emprego. Para isso, deve-se primeiramente rejeitar a Curva de Phillips. Nesse sentido, a MMT alega que é possível alcançar o pleno emprego com estabilidade dos preços. Na verdade, argumenta que um programa de *job guarantee* iria *aumentar* a estabilidade dos preços.
+
+Um programa de *job guarantee* consiste no governo soberano garantir o emprego do trabalhador em desemprego involuntário. A característica que aumenta a estabilidade dos preços não é apenas o alance do pleno emprego, mas a manutenção dele: com um nível de emprego estável, a variação da demanda se daria pela taxa de crescimento natural. Isso resultaria numa maior capacidade de planejamento da oferta e menor volatilidade dos retornos dos investimentos reais, trazendo estabilidade na demanda e oferta agregada e, portanto, estabilidade nos preços.
+
+Claro que o governo soberano deveria atuar aqui como um empregador último. Para tanto, o nível de salário desse emprego deveria ser apenas o mínimo necessário para a redução da pobreza e as doenças sociais associadas ao desemprego crônico, como saúde pública, criminalidade, abuso de drogas etc. Esse salário não deve, portanto, ser atrativo a nível de competir com o setor privado, se modo a não drená-lo.
+
+Por fim, há uma série de propostas para o desenho de um programa de *job guarantee* na literatura da MMT. O que de fato importa é que o desemprego e a pobreza não podem ser aceitas como ferramentas para manutenção da estabilidade financeira, que é exatamente o que a política pública baseada na Curva de Phillips propõe.
 
 # REFERÊNCIAS {-}
